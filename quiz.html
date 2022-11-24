@@ -1,0 +1,34 @@
+<doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Quiz App</title>
+      <link rel="stylesheet" href="style.css">
+      <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  
+
+  
+      <div class="quiz-container" id="quiz">
+          <div class="quiz-header">
+            
+            <ul id="parent">
+              
+            </ul>
+          </div>
+          <button onclick="getdata()">GET QUESTIONS</button>
+
+          <button id="submit" onclick="showresult()">Check The Result</button>
+
+        </div>
+        <div id="lastdiv">
+
+          <h1 class="hls">Result</h1>
+          <span class="hls">Mark :</span> <span id="marks">Wait</span><br />
+          <span class="hls">Status :</span> <span id="status">Wait </span><br />
+         <button  class="ok"  onclick="none()">OK</button>
+        </div>
+  <script type="module" src="app.js"></script>
+  </body>
+  </html>
